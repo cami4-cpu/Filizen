@@ -221,7 +221,7 @@ export default function LoginPage() {
 
               {/* Info */}
               <p className="text-xs text-muted-foreground text-center mt-4">
-                Este es un prototipo. Los datos son de ejemplo y se guardan localmente.
+                Pyoyecto Universitario
               </p>
             </CardContent>
           </Card>
