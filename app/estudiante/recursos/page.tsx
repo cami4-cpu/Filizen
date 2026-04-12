@@ -32,9 +32,9 @@ const tipoConfig = {
 }
 
 const lineasAyuda = [
-  { nombre: "Linea de la Vida", telefono: "800-911-2000", descripcion: "Atencion 24 horas, los 365 dias del ano" },
-  { nombre: "SAPTEL", telefono: "55-5259-8121", descripcion: "Apoyo emocional por telefono" },
-  { nombre: "Consejo Ciudadano", telefono: "55-5533-5533", descripcion: "Orientacion psicologica gratuita" }
+  { nombre: "Linea de la Vida", telefono: "103", descripcion: "Atencion 24 horas, los 365 dias del año" },
+  { nombre: "SAPTEL", telefono: "(+57) 602 6808163", descripcion: "Apoyo emocional por telefono" },
+  { nombre: "Consejo Ciudadano", telefono: "31559625853", descripcion: "Orientacion psicologica gratuita" }
 ]
 
 export default function RecursosPage() {
