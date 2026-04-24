@@ -1,26 +1,17 @@
 const express = require("express");
-const cors = require("cors");
-
-const express = require("express");
-const cors = require("cors");
-const mongoose = require("mongoose");
-require("dotenv").config();
-
 const app = express();
 
-mongoose.connect(process.env.MONGO_URI)
-.then(() => console.log("MongoDB conectado"))
-.catch(err => console.log(err));
-
-app.use(cors());
+// Middleware para que lea JSON
 app.use(express.json());
 
+// Ruta de prueba
 app.get("/", (req, res) => {
-  res.send("Backend Filizen funcionando 🚀");
+  res.send("Servidor funcionando 🚀");
 });
 
-const PORT = process.env.PORT || 3000;
+// Puerto (Render lo asigna automáticamente)
+const PORT = process.env.PORT || 10000;
 
 app.listen(PORT, () => {
-  console.log("Servidor corriendo");
+  console.log("Servidor corriendo en el puerto " + PORT);
 });
