@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Backend funcionando");
+  res.send("Backend funcionando 🚀");
 });
 
 const PORT = process.env.PORT || 3000;
